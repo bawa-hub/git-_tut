@@ -1,11 +1,13 @@
-# 1. git basics
+## 1. git basics
 
+```
 ~ setup git on new project
 git init
 git add .
 git commit -m "message"
 git add remote <url> [optional]
 git push origin master
+```
 
 ~ cloning
 git clone <url>
