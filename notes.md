@@ -9,20 +9,27 @@ git add remote <url> [optional]
 git push origin master
 ```
 
+```
 ~ cloning
 git clone <url>
 git clone <url> <target_directory> [clone in target directory]
+```
 
+```
 ~ status of files
 git status
 git status -s [short status]
+```
 
+```
 ~ view commit history
 git log
 git log -p [difference introduced in each commit]
 git log --stat [abbreviated stats for each commit]
 git log --pretty=oneline [with less or more information]
+```
 
+```
 ~ tagging
 
 <!-- Creating Tags -->
@@ -37,11 +44,15 @@ git push origin --tags [push all tags at once]
 git tag -d <tag_name> [delete a tag on local repo]
 git push origin --delete <tag_name> [remove tag from remote server ]
 git checkout <tag_name> [checking out tags]
+```
 
+```
 ~ git aliases
+```
 
-# 2. git branching
+## 2. git branching
 
+```
 a. branching and merging
 git branch branch_1 [creating branch]
 git branch branch_2
@@ -62,7 +73,9 @@ After you’ve resolved each of these sections in each conflicted file, run git 
 git mergetool [fires visual merge tool]
 git status [to verify all conflicts are resolved]
 git commit [if all conflicts are resolved]
+```
 
+```
 b. branch management
 git branch [list all branches]
 git branch -v [last commit on each branches]
@@ -70,6 +83,9 @@ git branch --merged [merged branches]
 git branch --no-merged [not merged till now]
 git branch --move bad-branch-name good-branch-name [change branch name]
 git push --set-upstream origin corrected-branch-name [change branch_name also on server]
+```
 
+```
 c. remote branches
 d. rebasing
+```
