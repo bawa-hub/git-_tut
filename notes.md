@@ -87,5 +87,9 @@ git push --set-upstream origin corrected-branch-name [change branch_name also on
 
 ```
 c. remote branches
+git remote add origin git remote add origin https://<token>/bawa-hub/laravel-music-engine.git  [private repo on github: Account->Settings->Developer settings->generate token]
+```
+
+```
 d. rebasing
 ```
